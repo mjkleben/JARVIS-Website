@@ -129,6 +129,7 @@ a, a:hover, a:active, a:visited, a:focus {
     to   { opacity: 1; }
 }
 
+
 .grayDivider{
     width: 100%;
     height: 100px;
@@ -143,72 +144,47 @@ a, a:hover, a:active, a:visited, a:focus {
 
 }
 
-.imagerow{
-    height: 100%;
+.boxcontainer{
     width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+
+.graybox1{
+
+    height: 100%;
+    width: 42.5%;
+    background-color: gray;
     display: flex;
     justify-content: center;
+    margin-left: 5%;
+}
 
+.graybox2{
+    /* float: right; */
+    height: 100%;
+    width: 42.5%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
 
+.graybox1--inner{
+    width: 30%;
+    height: 40%;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.graybox2--inner{
+    width: 30%;
+    height: 40%;
+    margin: auto;
+    margin-top: 4em;
 }
 
 img{
-    max-height: 80%;
-    padding: 0.8em;
-
-}
-
-.firstpic{
-    margin-left: -0.4em;
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 3s; /* Firefox < 16 */
-     -ms-animation: fadein 3s; /* Internet Explorer */
-      -o-animation: fadein 3s; /* Opera < 12.1 */
-         animation: fadein 3s;
-}
-
-.secondpic{
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 4s; /* Firefox < 16 */
-     -ms-animation: fadein 4s; /* Internet Explorer */
-      -o-animation: fadein 4s; /* Opera < 12.1 */
-         animation: fadein 4s;
-
-}
-
-.thirdpic{
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-     -ms-animation: fadein 5s; /* Internet Explorer */
-      -o-animation: fadein 5s; /* Opera < 12.1 */
-         animation: fadein 5s;
-
-}
-
-.fourthpic{
-    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 6s; /* Firefox < 16 */
-     -ms-animation: fadein 6s; /* Internet Explorer */
-      -o-animation: fadein 6s; /* Opera < 12.1 */
-         animation: fadein 6s;
-
-}
-
-.fifthpic{
-    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 7s; /* Firefox < 16 */
-     -ms-animation: fadein 7s; /* Internet Explorer */
-      -o-animation: fadein 7s; /* Opera < 12.1 */
-         animation: fadein 7s;
-}
-
-.description{
-    width: 50%;
-    margin: auto;
-    font-size: 1.5em;
-        -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-     -ms-animation: fadein 5s; /* Internet Explorer */
-      -o-animation: fadein 5s; /* Opera < 12.1 */
-         animation: fadein 5s;
+    max-height: 100%;
 }
