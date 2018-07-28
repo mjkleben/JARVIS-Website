@@ -64,40 +64,16 @@ a, a:hover, a:active, a:visited, a:focus {
     text-align: center;
     margin-bottom: 0;
     padding-top: 3%;
+    margin-top: -2%;
 }
 
-.Hi{
+.download{
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
      -ms-animation: fadein 3s; /* Internet Explorer */
       -o-animation: fadein 3s; /* Opera < 12.1 */
          animation: fadein 3s;
 }
-
-.colon{
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 4s; /* Firefox < 16 */
-     -ms-animation: fadein 4s; /* Internet Explorer */
-      -o-animation: fadein 4s; /* Opera < 12.1 */
-         animation: fadein 4s;
-}
-
-.iAm{
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-     -ms-animation: fadein 5s; /* Internet Explorer */
-      -o-animation: fadein 5s; /* Opera < 12.1 */
-         animation: fadein 5s;
-}
-
-.jarvisName{
-    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 10s; /* Firefox < 16 */
-     -ms-animation: fadein 10s; /* Internet Explorer */
-      -o-animation: fadein 10s; /* Opera < 12.1 */
-         animation: fadein 10s;
-}
-
 
 
 @keyframes fadein {
@@ -132,21 +108,22 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .grayDivider{
     width: 100%;
-    height: 100px;
-    background-color: #eeeeee;
+    height: 60px;
+    /* background-color: #e8e8e8; */
     position: relative;
         -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
      -ms-animation: fadein 3s; /* Internet Explorer */
       -o-animation: fadein 3s; /* Opera < 12.1 */
          animation: fadein 3s;
+    text-align: center;
 
 
 }
 
 .boxcontainer{
     width: 100%;
-    height: 600px;
+    height: 300px;
     display: flex;
 
 }
@@ -155,9 +132,10 @@ a, a:hover, a:active, a:visited, a:focus {
 
     height: 100%;
     width: 42.5%;
-    background-color: gray;
+    background-color: #eeeeee;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-left: 5%;
 }
 
@@ -165,26 +143,66 @@ a, a:hover, a:active, a:visited, a:focus {
     /* float: right; */
     height: 100%;
     width: 42.5%;
-    background-color: blue;
+    background-color: #eeeeee;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-left: 5%;
 }
 
 .graybox1--inner{
-    width: 30%;
-    height: 40%;
+    width: 20%;
+    height: 30%;
     margin: auto;
     margin-top: 4em;
-}
-
-.graybox2--inner{
-    width: 30%;
-    height: 40%;
-    margin: auto;
-    margin-top: 4em;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
 }
 
 img{
     max-height: 100%;
+    
+} 
+.box1inner{
+    width: 100%;
+    height: 40%;
+    /* background-color: pink;   */
+    display: flex;
+    justify-content: center;
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 6s; /* Firefox < 16 */
+     -ms-animation: fadein 6s; /* Internet Explorer */
+      -o-animation: fadein 6s; /* Opera < 12.1 */
+         animation: fadein 6s;
 }
+
+.graybox2--inner{
+    width: 20%;
+    height: 30%;
+    margin: auto;
+    margin-top: 4em;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+    
+
+}
+
+.box2inner{
+    width: 100%;
+    height: 40%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 6s; /* Firefox < 16 */
+     -ms-animation: fadein 6s; /* Internet Explorer */
+      -o-animation: fadein 6s; /* Opera < 12.1 */
+         animation: fadein 6s;
+}
+

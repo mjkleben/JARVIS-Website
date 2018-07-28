@@ -64,6 +64,8 @@ a, a:hover, a:active, a:visited, a:focus {
     text-align: center;
     margin-bottom: 0;
     padding-top: 3%;
+    margin-top: 2%;
+
 }
 
 .Hi{
@@ -141,6 +143,7 @@ a, a:hover, a:active, a:visited, a:focus {
          animation: fadein 3s;
 
 
+
 }
 
 .imagerow{
@@ -212,3 +215,4 @@ img{
       -o-animation: fadein 5s; /* Opera < 12.1 */
          animation: fadein 5s;
 }
+

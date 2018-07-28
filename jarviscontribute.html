@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="jarviscontribute.css">
+<link href="https://fonts.googleapis.com/css?family=Assistant:200" rel="stylesheet"><title>Jarvis</title>
+</head>
+<body>
+    <div class="pageContainer">
+        <div class="mainpage--navbar">
+                <a href="jarvis.html" class="jarvis">Jarvis</a>
+                <a class="active" id="about" href="jarviscontribute.html">Contribute</a>
+                <a href="jarvisdownload.html">Download</a>
+                <a href="jarvisabout.html">About</a>
+        </div>
+    </div>
+
+    <div class="mainpage--intro">
+            <p class ="jarvisIntro"><span class="contribute">Contribute</span></p>
+    </div>
+
+    <div class="grayDivider">
+            One thing I wish to be is different from
+            all the other voice recognition devices
+             out there. If you have an idea that you 
+            think is a good feature, (e.g. increasing 
+            computer brightness), write it in the
+            form on the right. I’ll try my best to 
+            teach myself it as fast as possible. 
+
+    </div>
+
+    <div class="boxcontainer">
+        <form method="post" name="myemailform" action="form-to-email.php">
+            <p>
+                <label for ='name'></label><br>
+                <input class ="name"type="text" name="name" placeholder="Name (Optional)">
+            </p>
+            <p> 
+                <label for="idea"></label><br>
+                <input class="idea "type="text" name="idea" placeholder="What's your idea?">
+            </p>
+            <p> 
+                    <label for="description"></label><br>
+                    <input class="descriptionInput" type="text" name="description" placeholder="Describe your idea">
+                </p>
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
